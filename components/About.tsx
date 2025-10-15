@@ -1,6 +1,7 @@
 'use client'
 
 import { motion } from 'framer-motion'
+import Image from 'next/image'
 
 const About = () => {
   return (
@@ -14,9 +15,11 @@ const About = () => {
           viewport={{ once: true }}
           transition={{ duration: 1 }}
         >
-          <img
-            src='/images/about-illustration.svg'
+          <Image
+            src='/images/about.jpeg'
             alt='About us illustration'
+            width={500}
+            height={500}
             className='w-full h-auto'
           />
         </motion.div>
@@ -30,7 +33,7 @@ const About = () => {
           transition={{ duration: 1 }}
         >
           <h2 className='text-3xl md:text-4xl font-bold text-navy dark:text-white mb-4'>
-            About Sololo Digital
+            About Digital Solutions
           </h2>
           <p className='text-gray-700 dark:text-gray-300 mb-4'>
             We are a team of passionate engineers and designers committed to

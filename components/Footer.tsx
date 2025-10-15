@@ -10,7 +10,7 @@ const Footer = () => {
         {/* Company Info */}
         <div className='mb-8 md:mb-0'>
           <h3 className='text-2xl font-bold text-navy dark:text-white mb-2'>
-            Sololo<span className='text-gray-500'>Digital</span>
+            Digital <span className='text-gray-500'>Solutions</span>
           </h3>
           <p className='text-gray-600 dark:text-gray-400 max-w-xs'>
             Transforming ideas into digital solutions with precision and
@@ -65,14 +65,15 @@ const Footer = () => {
           </div>
           <div className='flex items-center gap-2 text-gray-600 dark:text-gray-400'>
             <Mail size={18} />
-            <span>contact@sololodigital.com</span>
+            <span>contact@digitalsolutions.com</span>
           </div>
         </div>
       </div>
 
       {/* Bottom Bar */}
       <div className='mt-12 border-t border-gray-200 dark:border-gray-700 pt-6 text-center text-gray-500 dark:text-gray-400 text-sm'>
-        &copy; {new Date().getFullYear()} Sololo Digital. All rights reserved.
+        &copy; {new Date().getFullYear()} Digital Solutions. All rights
+        reserved.
       </div>
     </footer>
   )
