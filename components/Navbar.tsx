@@ -30,7 +30,7 @@ const Navbar = () => {
           href='/'
           className='text-2xl font-semibold text-navy dark:text-white'
         >
-          Digital <span className='text-gray-500'>Solutions</span>
+          Digital <span className='text-gray-100'>Solutions</span>
         </Link>
 
         {/* Nav Links */}
