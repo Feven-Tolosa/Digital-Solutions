@@ -29,9 +29,10 @@ const Navbar = () => {
         {/* Logo */}
         <Link
           href='/'
-          className='text-2xl font-semibold text-navy dark:text-white'
+          className='text-2xl font-semibold text-navy dark:text-white flex justify-end items-center gap-2'
         >
-          <Image src='./images/logo.jpg' height={50} width={50} alt='logo' />{' '}
+          <Image src='/images/logo.jpg' height={50} width={50} alt='logo' />
+          <div> EGERE DIGITAL SERVICE</div>
         </Link>
 
         {/* Nav Links */}
