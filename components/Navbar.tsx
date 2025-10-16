@@ -3,6 +3,7 @@
 import { useEffect, useState } from 'react'
 import { Moon, Sun } from 'lucide-react'
 import Link from 'next/link'
+import Image from 'next/image'
 
 const Navbar = () => {
   const [theme, setTheme] = useState<'light' | 'dark'>('light')
@@ -30,7 +31,7 @@ const Navbar = () => {
           href='/'
           className='text-2xl font-semibold text-navy dark:text-white'
         >
-          Digital <span className='text-gray-100'>Solutions</span>
+          <Image src='./images/logo.jpg' height={50} width={50} alt='logo' />{' '}
         </Link>
 
         {/* Nav Links */}
