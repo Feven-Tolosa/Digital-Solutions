@@ -13,7 +13,7 @@ const Footer = () => {
             Digital <span className='text-gray-500'>Solutions</span>
           </h3>
           <p className='text-gray-600 dark:text-gray-400 max-w-xs'>
-            Transforming ideas into digital solutions with precision and
+            Transforming ideas into EGERE DIGITAL SERVICEs with precision and
             elegance.
           </p>
         </div>
@@ -72,7 +72,7 @@ const Footer = () => {
 
       {/* Bottom Bar */}
       <div className='mt-12 border-t border-gray-200 dark:border-gray-700 pt-6 text-center text-gray-500 dark:text-gray-400 text-sm'>
-        &copy; {new Date().getFullYear()} Digital Solutions. All rights
+        &copy; {new Date().getFullYear()} EGERE DIGITAL SERVICEs. All rights
         reserved.
       </div>
     </footer>

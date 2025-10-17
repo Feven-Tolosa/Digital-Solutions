@@ -33,12 +33,12 @@ const About = () => {
           transition={{ duration: 1 }}
         >
           <h2 className='text-3xl md:text-4xl font-bold text-navy dark:text-white mb-4'>
-            About Digital Solutions
+            About EGERE DIGITAL SERVICEs
           </h2>
           <p className='text-gray-700 dark:text-gray-300 mb-4'>
             We are a team of passionate engineers and designers committed to
-            delivering innovative digital solutions. Our focus is on creating
-            products that inspire and transform businesses.
+            delivering innovative EGERE DIGITAL SERVICEs. Our focus is on
+            creating products that inspire and transform businesses.
           </p>
           <p className='text-gray-700 dark:text-gray-300'>
             From digital engineering to cloud solutions and IT security, we
