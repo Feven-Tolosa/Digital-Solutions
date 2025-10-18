@@ -2,15 +2,32 @@ import Navbar from '@/components/Navbar'
 import Hero from '@/components/Hero'
 import Services from '@/components/Services'
 import About from '@/components/About'
+
 import Footer from '@/components/Footer'
 
 export default function Home() {
   return (
-    <main className='bg-white dark:bg-gray-950 text-gray-900 dark:text-gray-50 transition-colors'>
+    <main className='relative min-h-screen text-gray-900 dark:text-gray-50 overflow-hidden'>
+      {/* 🔹 Background Video */}
+      <video
+        autoPlay
+        loop
+        muted
+        playsInline
+        className='fixed inset-0 w-full h-full object-cover -z-10'
+      >
+        <source src='/videos/hero-bg-dark.mp4' type='video/mp4' />
+      </video>
+
+      {/* 🔹 Dark/Light Overlay */}
+      <div className='fixed inset-0 bg-gray-750/50 -z-10 backdrop-blur-[2px]' />
+
+      {/* 🔹 Content */}
       <Navbar />
       <Hero />
-      <About />
       <Services />
+      <About />
+
       <Footer />
     </main>
   )

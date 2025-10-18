@@ -24,7 +24,7 @@ const Navbar = () => {
   const navItems = ['Home', 'About', 'Services', 'Projects', 'Contact']
 
   return (
-    <nav className='fixed top-0 left-0 w-full z-50 backdrop-blur-md bg-transparent shadow-sm transition-all'>
+    <nav className='fixed top-0 left-0 w-full z-50 backdrop-blur-md bg-gray-720/50 shadow-sm transition-all'>
       <div className='max-w-7xl mx-auto px-6 py-4 flex justify-between items-center'>
         {/* Logo */}
         <Link
