@@ -5,7 +5,10 @@ import Image from 'next/image'
 
 const About = () => {
   return (
-    <section id='about' className='py-24 bg-white dark:bg-gray-950'>
+    <section
+      id='about'
+      className='py-24 bg-white dark:bg-gray-950 glass-card section mt-5'
+    >
       <div className='max-w-7xl mx-auto px-6 md:flex md:items-center md:gap-12'>
         {/* Image / Illustration */}
         <motion.div

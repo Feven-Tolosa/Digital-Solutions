@@ -32,7 +32,10 @@ const services = [
 
 const Services = () => {
   return (
-    <section id='services' className='py-24 bg-gray-50 dark:bg-gray-900'>
+    <section
+      id='services'
+      className='py-24 bg-gray-50 dark:bg-gray-900 glass-card section'
+    >
       <div className='max-w-7xl mx-auto px-6 text-center'>
         <h2 className='text-3xl md:text-4xl font-bold text-navy dark:text-white mb-6'>
           Our Services

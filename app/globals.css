@@ -37,3 +37,43 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/* ================================
+   💎 Modern Hybrid Additions
+=================================== */
+
+/* Transparent card style (used for sections) */
+.glass-card {
+  background: rgba(21, 21, 21, 0.438);
+  backdrop-filter: blur(10px);
+  transition: var(--transition);
+}
+
+.dark .glass-card {
+  background: rgba(17, 25, 40, 0.65);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Accent gradient for buttons and highlights */
+.bg-gradient-accent {
+  background: linear-gradient(135deg, #2563eb, #60a5fa);
+}
+
+.hover-glow:hover {
+  box-shadow: 0 0 25px rgba(96, 165, 250, 0.4);
+  transform: translateY(-2px);
+}
+
+/* Section fade reveal */
+.reveal {
+  opacity: 0;
+  transform: translateY(40px);
+  animation: reveal 1s ease forwards;
+}
+
+@keyframes reveal {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

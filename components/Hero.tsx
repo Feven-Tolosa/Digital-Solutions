@@ -25,7 +25,7 @@ const Hero = () => {
         </p>
         <a
           href='#services'
-          className='inline-block bg-navy text-blue-900 dark:bg-blue-600 dark:text-white px-6 py-3 rounded-full font-semibold hover:opacity-90 transition'
+          className='inline-block bg-navy text-blue-900 px-6 py-3 rounded-full font-semibold hover:opacity-90 transition bg-gradient-to-br hover-glow'
         >
           Get Started
         </a>

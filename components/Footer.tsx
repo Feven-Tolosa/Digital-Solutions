@@ -1,6 +1,7 @@
 'use client'
 
 import { Instagram, Linkedin, Twitter, Mail } from 'lucide-react'
+import Image from 'next/image'
 import Link from 'next/link'
 
 const Footer = () => {
@@ -9,8 +10,9 @@ const Footer = () => {
       <div className='max-w-7xl mx-auto px-6 md:flex md:justify-between md:items-start'>
         {/* Company Info */}
         <div className='mb-8 md:mb-0'>
-          <h3 className='text-2xl font-bold text-navy dark:text-white mb-2'>
-            Digital <span className='text-gray-500'>Solutions</span>
+          <Image src='/images/logo.png' height={50} width={50} alt='logo' />
+          <h3 className='text-2xl font-bold text-navy dark:text-white mb-2 flex items-center gap-2'>
+            EGERE <span className='text-gray-500'>DIGITAL SERVICE </span>
           </h3>
           <p className='text-gray-600 dark:text-gray-400 max-w-xs'>
             Transforming ideas into EGERE DIGITAL SERVICEs with precision and

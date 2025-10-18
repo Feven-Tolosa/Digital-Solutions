@@ -24,12 +24,12 @@ const Navbar = () => {
   const navItems = ['Home', 'About', 'Services', 'Projects', 'Contact']
 
   return (
-    <nav className='fixed top-0 left-0 w-full z-50 backdrop-blur-md bg-gray-720/50 shadow-sm transition-all'>
+    <nav className='fixed top-0 left-0 w-full z-50 backdrop-blur-md bg-gray-800/50 shadow-sm transition-all'>
       <div className='max-w-7xl mx-auto px-6 py-4 flex justify-between items-center'>
         {/* Logo */}
         <Link
           href='/'
-          className='text-2xl font-semibold text-navy dark:text-white flex justify-end items-center gap-2'
+          className='text-2xl font-semibold text-navy dark:text-white flex justify-end items-center gap-2 '
         >
           <Image src='/images/logo.png' height={60} width={60} alt='logo' />
           <div> EGERE DIGITAL SERVICE</div>
@@ -53,7 +53,7 @@ const Navbar = () => {
         <button
           onClick={toggleTheme}
           aria-label='Toggle Theme'
-          className='p-2 rounded-full bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-200 hover:scale-105 transition-transform'
+          className='p-2 rounded-full bg-gray-100 dark:bg-gray-800 text-gray-700 dark:text-gray-200 hover:scale-105 transition-transform bg-gradient-to-br hover-glow'
         >
           {theme === 'light' ? <Moon size={18} /> : <Sun size={18} />}
         </button>
