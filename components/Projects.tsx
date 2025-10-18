@@ -18,6 +18,21 @@ const projects = [
     desc: 'Powerful machine learning dashboards for predictive insights.',
     img: '/images/project3.jpg',
   },
+  {
+    title: 'Smart City Dashboard',
+    desc: 'Real-time urban data visualization and analytics for smarter decisions.',
+    img: '/images/project1.jpg',
+  },
+  {
+    title: 'E-Commerce Platform',
+    desc: 'A scalable online marketplace with modern UI and seamless payments.',
+    img: '/images/project2.jpg',
+  },
+  {
+    title: 'AI Analytics Suite',
+    desc: 'Powerful machine learning dashboards for predictive insights.',
+    img: '/images/project3.jpg',
+  },
 ]
 
 export default function Projects() {

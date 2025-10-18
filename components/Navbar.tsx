@@ -32,7 +32,10 @@ const Navbar = () => {
           className='text-2xl font-semibold text-navy dark:text-white flex justify-end items-center gap-2 '
         >
           <Image src='/images/logo.png' height={60} width={60} alt='logo' />
-          <div> EGERE DIGITAL SERVICE</div>
+          <div>
+            {' '}
+            EGERE <span className='text-gray-500'> DIGITAL SERVICE</span>{' '}
+          </div>
         </Link>
 
         {/* Nav Links */}
