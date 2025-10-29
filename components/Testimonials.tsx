@@ -33,7 +33,7 @@ export default function Testimonials() {
         viewport={{ once: true }}
       >
         <h2 className='text-4xl font-bold text-navy dark:text-white mb-12'>
-          What Our <span className='text-blue-500'>Clients Say</span>
+          What Our <span className='text-white'>Clients Say</span>
         </h2>
 
         <div className='grid md:grid-cols-3 gap-8'>
@@ -49,7 +49,7 @@ export default function Testimonials() {
               <div className='font-semibold text-navy dark:text-white'>
                 {t.name}
               </div>
-              <div className='text-sm text-blue-500'>{t.role}</div>
+              <div className='text-sm text-navy'>{t.role}</div>
             </motion.div>
           ))}
         </div>

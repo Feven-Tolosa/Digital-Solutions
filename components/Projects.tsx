@@ -6,32 +6,32 @@ const projects = [
   {
     title: 'Smart City Dashboard',
     desc: 'Real-time urban data visualization and analytics for smarter decisions.',
-    img: '/images/project1.jpg',
+    img: '/images/project1.png',
   },
   {
     title: 'E-Commerce Platform',
     desc: 'A scalable online marketplace with modern UI and seamless payments.',
-    img: '/images/project2.jpg',
+    img: '/images/project2.png',
   },
   {
     title: 'AI Analytics Suite',
     desc: 'Powerful machine learning dashboards for predictive insights.',
-    img: '/images/project3.jpg',
+    img: '/images/project3.png',
   },
   {
     title: 'Smart City Dashboard',
     desc: 'Real-time urban data visualization and analytics for smarter decisions.',
-    img: '/images/project1.jpg',
+    img: '/images/project1.png',
   },
   {
     title: 'E-Commerce Platform',
     desc: 'A scalable online marketplace with modern UI and seamless payments.',
-    img: '/images/project2.jpg',
+    img: '/images/project2.png',
   },
   {
     title: 'AI Analytics Suite',
     desc: 'Powerful machine learning dashboards for predictive insights.',
-    img: '/images/project3.jpg',
+    img: '/images/project3.png',
   },
 ]
 
@@ -46,7 +46,7 @@ export default function Projects() {
         viewport={{ once: true }}
       >
         <h2 className='text-4xl font-bold text-navy dark:text-white mb-10'>
-          Our <span className='text-blue-500'>Projects</span>
+          Our <span className='text-white'>Projects</span>
         </h2>
 
         <div className='grid md:grid-cols-3 gap-8'>

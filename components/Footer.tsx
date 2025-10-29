@@ -12,7 +12,7 @@ const Footer = () => {
         <div className='mb-8 md:mb-0'>
           <Image src='/images/logo.png' height={50} width={50} alt='logo' />
           <h3 className='text-2xl font-bold text-navy dark:text-white mb-2 flex items-center gap-2'>
-            EGERE <span className='text-gray-500'>DIGITAL SERVICE </span>
+            EGERE <span className='text-white'>DIGITAL SERVICE </span>
           </h3>
           <p className='text-gray-600 dark:text-gray-400 max-w-xs'>
             Transforming ideas into EGERE DIGITAL SERVICEs with precision and
@@ -29,7 +29,7 @@ const Footer = () => {
                 <li key={item}>
                   <Link
                     href={`#${item.toLowerCase()}`}
-                    className='hover:text-navy dark:hover:text-blue-400 transition-colors'
+                    className='hover:text-blue-400 transition-colors'
                   >
                     {item}
                   </Link>

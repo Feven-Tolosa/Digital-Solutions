@@ -36,7 +36,7 @@ const About = () => {
           transition={{ duration: 1 }}
         >
           <h2 className='text-3xl md:text-4xl font-bold text-navy dark:text-white mb-4'>
-            About EGERE DIGITAL SERVICEs
+            About <span className='text-white'> EGERE DIGITAL SERVICEs</span>
           </h2>
           <p className='text-gray-700 dark:text-gray-300 mb-4'>
             We are a team of passionate engineers and designers committed to

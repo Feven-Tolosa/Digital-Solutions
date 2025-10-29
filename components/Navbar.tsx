@@ -34,17 +34,17 @@ const Navbar = () => {
           <Image src='/images/logo.png' height={60} width={60} alt='logo' />
           <div>
             {' '}
-            EGERE <span className='text-gray-500'> DIGITAL SERVICE</span>{' '}
+            EGERE <span className='text-gray-300'> DIGITAL SERVICE</span>{' '}
           </div>
         </Link>
 
         {/* Nav Links */}
-        <ul className='hidden md:flex gap-8 text-gray-700 dark:text-gray-200'>
+        <ul className='hidden md:flex gap-8 text-gray-500 dark:text-gray-200'>
           {navItems.map((item) => (
             <li key={item}>
               <Link
                 href={`#${item.toLowerCase()}`}
-                className='hover:text-navy dark:hover:text-blue-400 transition-colors'
+                className='hover:text-navy transition-colors'
               >
                 {item}
               </Link>

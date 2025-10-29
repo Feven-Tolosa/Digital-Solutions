@@ -15,8 +15,7 @@ export default function ContactCTA() {
         viewport={{ once: true }}
       >
         <h2 className='text-4xl font-bold text-navy dark:text-white mb-4'>
-          Ready to Build Something{' '}
-          <span className='text-blue-500'>Amazing?</span>
+          Ready to Build Something <span className='text-white'>Amazing?</span>
         </h2>
         <p className='text-gray-600 dark:text-gray-300 mb-8'>
           Let’s discuss your vision and bring it to life with design,

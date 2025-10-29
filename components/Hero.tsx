@@ -16,7 +16,7 @@ const Hero = () => {
         transition={{ duration: 1 }}
         className='relative z-10 max-w-3xl mx-auto px-4'
       >
-        <h1 className='text-4xl md:text-6xl font-bold text-navy dark:text-white mb-4'>
+        <h1 className='text-4xl md:text-6xl font-bold text-white mb-4'>
           Building Digital Solutions That Inspire
         </h1>
         <p className='text-lg md:text-xl text-gray-700 dark:text-gray-300 mb-8'>
@@ -25,7 +25,7 @@ const Hero = () => {
         </p>
         <a
           href='#services'
-          className='inline-block bg-navy text-blue-900 px-6 py-3 rounded-full font-semibold hover:opacity-90 transition bg-gradient-to-br hover-glow'
+          className='inline-block bg-white text-black px-6 py-3 rounded-full font-semibold hover:opacity-90 transition bg-gradient-to-br hover-glow'
         >
           Get Started
         </a>
