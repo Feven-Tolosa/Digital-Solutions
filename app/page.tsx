@@ -7,6 +7,7 @@ import Footer from '@/components/Footer'
 import Projects from '@/components/Projects'
 import Testimonials from '@/components/Testimonials'
 import ContactCTA from '@/components/ContactCTA'
+import Team from '@/components/Team'
 
 export default function Home() {
   return (
@@ -31,6 +32,7 @@ export default function Home() {
       <Services />
       <About />
       <Projects />
+      <Team />
       <Testimonials />
       <ContactCTA />
       <Footer />

@@ -15,10 +15,10 @@ const Hero = () => {
         transition={{ duration: 1 }}
         className='relative z-10 max-w-3xl mx-auto px-4'
       >
-        <h1 className='text-4xl md:text-6xl font-bold text-white mb-4'>
-          Building Digital Solutions That Inspire
+        <h1 className='text-4xl md:text-6xl font-bold text-white  mb-4'>
+          Building Digital Solutions <br /> That Inspire
         </h1>
-        <p className='text-lg md:text-xl text-gray-700 dark:text-gray-300 mb-8'>
+        <p className='text-lg md:text-xl text-gray-700 dark:text-gray-300 mt-5 mb-8'>
           We transform ideas into powerful digital experiences — engineered for
           excellence.
         </p>
