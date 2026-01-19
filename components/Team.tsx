@@ -3,18 +3,21 @@ import { motion } from 'framer-motion'
 
 const teams = [
   {
+    image: '/images/about',
     name: 'Sara Bekele',
     role: 'Product Manager, NexGen',
     quote:
       'Sololo Digital turned our concept into a stunning and functional platform. Their team blends creativity with precision.',
   },
   {
+    image: '/images/about',
     name: 'Daniel Tesfaye',
     role: 'CTO, BlueSpace AI',
     quote:
       'The user experience design exceeded expectations — elegant, responsive, and engaging across all devices.',
   },
   {
+    image: '/images/about',
     name: 'Mikiyas Alemu',
     role: 'Founder, BizCloud',
     quote:
@@ -43,6 +46,11 @@ export default function Team() {
               className='glass-card p-8 rounded-3xl text-left hover-glow'
               whileHover={{ scale: 1.02 }}
             >
+              <img
+                src={t.image}
+                alt={t.name}
+                className='w-16 h-16 rounded-full mb-4'
+              />
               <p className='text-gray-700 dark:text-gray-300 italic mb-6'>
                 “{t.quote}”
               </p>
