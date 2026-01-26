@@ -1,33 +1,33 @@
 'use client'
 import { motion } from 'framer-motion'
+import Image from 'next/image'
 
-const teams = [
+const teamMembers = [
   {
-    image: '/images/about',
-    name: 'Sara Bekele',
-    role: 'Product Manager, NexGen',
-    quote:
-      'Sololo Digital turned our concept into a stunning and functional platform. Their team blends creativity with precision.',
+    name: 'Abel Solomon',
+    role: 'Founder & Lead Engineer',
+    image: '/images/team1.png',
   },
   {
-    image: '/images/about',
-    name: 'Daniel Tesfaye',
-    role: 'CTO, BlueSpace AI',
-    quote:
-      'The user experience design exceeded expectations — elegant, responsive, and engaging across all devices.',
+    name: 'John Doe',
+    role: 'Software Engineer',
+    image: '/images/team1.png',
   },
   {
-    image: '/images/about',
-    name: 'Mikiyas Alemu',
-    role: 'Founder, BizCloud',
-    quote:
-      'Professionalism at its best. They understood our needs and delivered before the deadline.',
+    name: 'Samuel Bekele',
+    role: 'UI/UX Designer',
+    image: '/images/team1.png',
+  },
+  {
+    name: 'Liya Tesfaye',
+    role: 'Cloud & DevOps Engineer',
+    image: '/images/team1.png',
   },
 ]
 
 export default function Team() {
   return (
-    <section id='testimonials' className='py-24 px-6 text-center'>
+    <section id='team' className='py-24 px-6 text-center'>
       <motion.div
         className='max-w-6xl mx-auto'
         initial={{ opacity: 0, y: 50 }}
@@ -35,29 +35,35 @@ export default function Team() {
         transition={{ duration: 0.8 }}
         viewport={{ once: true }}
       >
-        <h2 className='text-4xl font-bold text-navy dark:text-white mb-12'>
-          What Our <span className='text-white'>Clients Say</span>
+        <h2 className='text-4xl font-bold text-navy dark:text-white mb-6'>
+          Meet Our <span className='text-blue-500'>Team</span>
         </h2>
 
-        <div className='grid md:grid-cols-3 gap-8'>
-          {teams.map((t, i) => (
+        <p className='text-gray-600 dark:text-gray-300 mb-12 max-w-2xl mx-auto'>
+          A passionate group of engineers, designers, and innovators dedicated
+          to building high-quality digital solutions.
+        </p>
+
+        <div className='grid sm:grid-cols-2 md:grid-cols-4 gap-8'>
+          {teamMembers.map((member, index) => (
             <motion.div
-              key={i}
-              className='glass-card p-8 rounded-3xl text-left hover-glow'
-              whileHover={{ scale: 1.02 }}
+              key={index}
+              className='glass-card rounded-3xl p-6 hover-glow transition-transform hover:-translate-y-2'
+              whileHover={{ scale: 1.03 }}
             >
-              <img
-                src={t.image}
-                alt={t.name}
-                className='w-16 h-16 rounded-full mb-4'
-              />
-              <p className='text-gray-700 dark:text-gray-300 italic mb-6'>
-                “{t.quote}”
-              </p>
-              <div className='font-semibold text-navy dark:text-white'>
-                {t.name}
+              <div className='relative w-32 h-32 mx-auto mb-4'>
+                <Image
+                  src={member.image}
+                  alt={member.name}
+                  fill
+                  className='rounded-full object-cover border-4 border-white/40 dark:border-white/10'
+                />
               </div>
-              <div className='text-sm text-navy'>{t.role}</div>
+
+              <h3 className='text-lg font-semibold text-navy dark:text-white'>
+                {member.name}
+              </h3>
+              <p className='text-sm text-blue-500'>{member.role}</p>
             </motion.div>
           ))}
         </div>
