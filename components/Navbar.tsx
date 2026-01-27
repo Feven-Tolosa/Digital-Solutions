@@ -21,7 +21,7 @@ const Navbar = () => {
     document.documentElement.classList.toggle('dark', newTheme === 'dark')
   }
 
-  const navItems = ['Home', 'About', 'Services', 'Projects', 'Contact', 'Team']
+  const navItems = ['About', 'Services', 'Projects', 'Team', 'Contact']
 
   return (
     <nav className='fixed top-0 left-0 w-full z-50 backdrop-blur-md bg-gray-800/50 shadow-sm transition-all'>

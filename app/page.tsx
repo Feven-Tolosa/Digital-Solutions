@@ -29,8 +29,8 @@ export default function Home() {
       {/* 🔹 Content */}
       <Navbar />
       <Hero />
-      <Services />
       <About />
+      <Services />
       <Projects />
       <Team />
       <Testimonials />
