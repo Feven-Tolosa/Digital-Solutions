@@ -1,36 +1,185 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Digital services Website
 
-## Getting Started
+A modern and elegant digital services company website built with **Next.js 15**, **Tailwind CSS v4**, and **Framer Motion**.
+The project features a sleek hybrid design with  **glassmorphism UI**, and a **full-page animated background video** for a premium user experience.
 
-First, run the development server:
+---
+
+## 🚀 Live Features
+
+*  Full-page slow background video
+*  Glassmorphism modern design
+*  Smooth animations with Framer Motion
+*  Fully responsive layout
+*  Modular component architecture
+*  Elegant navy, white, and gray color palette
+*  Modern sections for services, projects, testimonials, and team
+*  Multi-page structure ready for scaling
+
+---
+
+## 🛠️ Tech Stack
+
+* **Framework:** Next.js 15 (App Router)
+* **Styling:** Tailwind CSS v4
+* **Animations:** Framer Motion
+* **Icons:** Lucide React
+* **Language:** TypeScript
+
+---
+
+## 📂 Project Structure
+
+```bash
+app/
+├─ globals.css
+├─ layout.tsx
+├─ page.tsx
+├─ about/page.tsx
+├─ services/page.tsx
+├─ projects/page.tsx
+├─ contact/page.tsx
+
+components/
+├─ Navbar.tsx
+├─ Hero.tsx
+├─ Services.tsx
+├─ About.tsx
+├─ Team.tsx
+├─ Projects.tsx
+├─ Testimonials.tsx
+├─ ContactCTA.tsx
+├─ Footer.tsx
+
+public/
+├─ videos/
+│  └─ background.mp4
+├─ images/
+│  ├─ project1.jpg
+│  ├─ project2.jpg
+│  ├─ project3.jpg
+│  ├─ team1.jpg
+│  ├─ team2.jpg
+│  ├─ team3.jpg
+│  └─ team4.jpg
+```
+
+---
+
+## ⚙️ Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/Feven-Tolosa/Digital-Solutions.git
+```
+
+Navigate into the project:
+
+```bash
+cd Digital-Solutions
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```bash
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## ✨ Main Sections
 
-To learn more about Next.js, take a look at the following resources:
+### 🏠 Hero Section
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+* Full-screen hero layout
+* Animated slow-motion background video
+* Elegant headline and CTA
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+### 🧰 Services
 
-## Deploy on Vercel
+* Glassmorphism cards
+* Animated hover effects
+* Responsive layout
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+### 👥 Team Section
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+* Professional team showcase
+* Responsive member cards
+* Modern hover glow effect
+
+### 📁 Projects
+
+* Portfolio showcase
+* Project previews with animations
+
+### 💬 Testimonials
+
+* Client feedback cards
+* Smooth fade-in animations
+
+### 📩 Contact CTA
+
+* Call-to-action banner
+* Ready for contact form integration
+
+---
+
+## 🎨 Design Style
+
+The project follows a:
+
+* **Modern Tech-Elegant Hybrid**
+* **Minimal corporate aesthetic**
+* **Glassmorphism interface**
+* **Soft blue glowing accents**
+* **Immersive background visuals**
+
+---
+
+## 📦 Dependencies
+
+```bash
+npm install framer-motion lucide-react
+```
+
+---
+
+## 🌐 Deployment
+
+This project is deployed easily on:
+
+* ▲ Vercel
+
+---
+
+## 📸 Assets
+
+```bash
+/public/videos/
+/public/images/
+```
+
+---
+
+## 👩‍💻 Author
+
+Developed by Feven Tolosa
+
+---
+
+## 📄 License
+
+This project is licensed under the MIT License.
